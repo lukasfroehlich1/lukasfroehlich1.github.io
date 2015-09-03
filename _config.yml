@@ -2,8 +2,8 @@
 title: Lukas Froehlich's blog
 description: Lukas Froehlich's blog
 favicon: /assets/img/avatar.JPG
-baseurl: 
-url: http://ddbullfrog.com
+baseurl:
+url: http://lukasfroehlich.com
 rss_url: /pages/atom.xml
 
 # Build settings
