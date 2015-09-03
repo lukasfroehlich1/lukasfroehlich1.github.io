@@ -1,7 +1,7 @@
 # Site settings
 title: Lukas Froehlich's blog
 description: Lukas Froehlich's blog
-favicon: /assets/img/avatar.JPG
+favicon: /assets/img/avatar.png
 baseurl:
 url: http://lukasfroehlich.com
 rss_url: /pages/atom.xml
