@@ -1,0 +1,90 @@
+# Site settings
+title: Lukas Froehlich's blog
+description: Lukas Froehlich's blog
+favicon: /assets/img/avatar.JPG
+baseurl: 
+url: http://ddbullfrog.com
+rss_url: /pages/atom.xml
+
+# Build settings
+markdown: kramdown
+
+# Author settings
+author:
+  name: Lukas Froehlich
+  title: Knowledge Enthusiast
+  introduction: My name is Lukas Froehlich and am intereasted in a wide variaty of subjects.
+  address: San Francisco, CA
+  email: lukasfroehlich1@gmail.com
+  link: http://lukasfroehlich.com
+  github: lukasfroehlich1
+  linkedin: lukasfroehlich
+  gavatar: /assets/img/portrait.jpg
+  workHistory:
+    - work1:
+      company: Hulu
+      location: Santa Monica, CA
+      title: Software Developer Intern
+      started: 2015
+      duration: (June 2015 - August 2015)
+      description: Worked on the payments team to develop a generalized anomaly detection service. The service easily allowed the user to add queries to be monitored. Worked with Echo State Networks along with a few other algorithms. Worked with the payments code base to filter out all sensitive information from the logs.
+      tools: Python, Javascript, Scala, Mongo, D3
+    - work2:
+      company: Agfa HealthCare
+      location: Shanghai, China
+      title: Java Developer
+      started: 2012
+      duration: (2012 - 2014)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+    - work3:
+      company: Citigroup Services and Technology (China) Limited
+      location: Shanghai, China
+      title: Java Developer
+      started: 2009
+      duration: (2009 - 2012)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+  projects:
+    - project1: 
+      title: IR Sensor
+      subtitle: Automated Device Testing
+      started: 2012
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      url: google.com
+    - project2: 
+      title: Poker Bot
+      subtitle: Highly Optimized Gambling
+      started: 2012
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      url: google.com
+  educationHistory:
+    - education1:
+      organization: California Polytechnic University - San Luis Obispo
+      degree: Bachelor
+      major: Computer Engineering
+      started: 2013
+      duration: (2013 - present)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+  languages:
+    - language1:
+      name: English
+      proficiency: Native
+    - language2:
+      name: German
+      proficiency: Fluent
+    - language3:
+      name: Chinese
+      proficiency: Fluent
+  experiencedProgramming:
+    - skill1:
+      name: Python
+    - skill2:
+      name: Java
+  learningProgramming:
+    - skill1:
+      name: Bootstrap
+    - skill2:
+      name: JavaScript
+    - skill3:
+      name: D3
+    - skill4:
+      name: Scala
