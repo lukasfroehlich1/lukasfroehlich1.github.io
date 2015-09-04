@@ -1,9 +1,9 @@
 # Site settings
 title: Lukas Froehlich
-description: Lukas Froehlich's Resume
+description: Lukas Froehlichs Resume
 favicon: /assets/img/avatar.png
 baseurl:
-url: 
+url: lukasfroehlich.com
 rss_url: /pages/atom.xml
 
 # Build settings
@@ -30,40 +30,31 @@ author:
       description: Worked on the payments team to develop a generalized anomaly detection service. The service easily allowed the user to add queries to be monitored. Worked with Echo State Networks along with a few other algorithms. Worked with the payments code base to filter out all sensitive information from the logs.
       tools: Python, Javascript, Scala, Mongo, D3
     - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Study Session Leader
+      location: Cal Poly - San Luis Obispo
+      started: 2014
+      duration: (Sep. 2014 - Dec. 2014)
+      description: Intruct and guide students weekly by paralleling the Phyiscs curriculum. Includes preparing worksheets and problems that actively challenge students.
   projects:
     - project1: 
       title: IR Sensor
-      subtitle: Automated Device Testing
-      started: 2012
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-      url: google.com
+      subtitle: Automated Device Interaction
+      started: 2015
+      description: Worked on a web service to send IR commands to a raspberry pi which then were transmitted to a living room device. A backend handled the tasks and task history while the raspberry pi hosted its own endpoint that converted commands to IR signals. Both endpoints were written in python using flask.
     - project2: 
       title: Poker Bot
       subtitle: Highly Optimized Gambling
-      started: 2012
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-      url: google.com
+      started: 2015
+      description: Created a poker game that would allow for users to connect poker bots and play poker. Componnts included managing various gamestates, win conditions and game flow. The backend was written in python using flask.
+      url: https://github.com/GordonGustafson/Poker
   educationHistory:
     - education1:
       organization: California Polytechnic University - San Luis Obispo
-      degree: Bachelor
+      degree: Bachelor of Science
       major: Computer Engineering
       started: 2013
       duration: (2013 - present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      description: 
   languages:
     - language1:
       name: English
@@ -88,3 +79,5 @@ author:
       name: D3
     - skill4:
       name: Scala
+    - skill4:
+      name: Haskell
