@@ -54,7 +54,7 @@ layout: default
             {% endif %}
 
             {% if site.author.projects %}
-                <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Projects</h3>
+                <h3 class="title with-icon"><span class="glyphicon glyphicon-folder-open cat-title"></span>Projects</h3>
                 <ul class="timeline">
                     {% for project in site.author.projects %}
                         <li class="timeline-inverted">
@@ -69,10 +69,10 @@ layout: default
                                     <p>
                                         <small class="text-muted">
                                             {% if project.subtitle %}
-                                                {{ project.subtitle }} |
+                                                {{ project.subtitle }}
                                             {% endif %}
                                             {% if project.url %}
-                                            <i class="fa fa-globe"></i><a href="{{ project.url }}" target="_blank">linnk!</a>  
+                                            | <i class="fa fa-globe"></i><a href="{{ project.url }}" target="_blank">linnk!</a>  
                                             {% endif %}
                                         </small>
                                     </p>
