@@ -13,7 +13,7 @@ markdown: kramdown
 author:
   name: Lukas Froehlich
   title: Knowledge Enthusiast
-  introduction: My name is Lukas Froehlich and am intereasted in a wide variaty of subjects.
+  introduction: My name is Lukas Froehlich. My interests include data science, functinoaly languages and data visualization. I have a deep love for physics, math competitions, and problem solving. 
   address: San Francisco, CA
   email: lukasfroehlich1@gmail.com
   link: http://lukasfroehlich.com
@@ -81,3 +81,5 @@ author:
       name: Scala
     - skill4:
       name: Haskell
+    - skill4:
+      name: Vim
