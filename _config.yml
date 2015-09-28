@@ -13,7 +13,7 @@ markdown: kramdown
 author:
   name: Lukas Froehlich
   title: Knowledge Enthusiast
-  introduction: My name is Lukas Froehlich. My interests include data science, functinoaly languages and data visualization. I have a deep love for physics, math competitions, and problem solving. 
+  introduction: My name is Lukas Froehlich. My interests include data science, functinoaly languages and data visualization. I have a deep love for physics, math competitions, and problem solving.
   address: San Francisco, CA
   email: lukasfroehlich1@gmail.com
   link: http://lukasfroehlich.com
@@ -37,8 +37,8 @@ author:
       description: Intruct and guide students weekly by paralleling the Phyiscs curriculum. Includes preparing worksheets and problems that actively challenge students.
   projects:
     - project1: 
-      title: IR Sensor
-      subtitle: Automated Device Interaction
+      title: Automated Device Interaction
+      subtitle: IR Sensor
       started: 2015
       description: Worked on a web service to send IR commands to a raspberry pi which then were transmitted to a living room device. A backend handled the tasks and task history while the raspberry pi hosted its own endpoint that converted commands to IR signals. Both endpoints were written in python using flask.
     - project2: 
