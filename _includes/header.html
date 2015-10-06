@@ -1,22 +1,18 @@
 <div class="header">
     <div class="container-fluid">
         <div class="row-fluid">
-            <div class="col-sm-4">
-                <img src="../assets/img/portrait.jpg" title="Portrait" alt="My Portrait">
-                <h4>{{ site.author.name }}</h4>
+            <div class="col-sm-6">
+                <img src="../assets/img/portrait.jpg" title="Portrait" style="float:left" alt="My Portrait">
+                <h1 id="title">{{ site.author.name }}</h1>
                 <p>{{ site.author.title }}</p>
-                <p class="muted">{{ site.author.address }}</p>
-                <a href="#">Resume</a>
+                <p><i>{{ site.author.introduction }}</i></p>
                 <div class="clearfix"></div>
             </div>
-            <div class="col-sm-4">
-                <h4>About Me</h4>
-                <p>{{ site.author.introduction }}</p>
-            </div>
-            <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
+            <div style="float:right" class="col-sm-3 visible-md-block visible-lg-block visible-sm-block">
                 <p><i class="fa fa-envelope-o fa-fw"></i> {{ site.author.email }} </p>
                 <p><i class="fa fa-github fa-fw"></i><a href="https://github.com/{{ site.author.github }}" target="_blank">  @{{ site.author.github }} </a></p>
                 <p><i class="fa fa-linkedin-square fa-fw"></i> <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank"> linkedin.com/in/{{ site.author.linkedin }} </a></p>
+                <a href="../assets/resume/resume.pdf">Resume</a>
             </div>
         </div>
     </div>

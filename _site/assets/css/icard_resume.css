@@ -1,7 +1,7 @@
 body {
-    /* background-color: #F0F0F0; */
-    /* background-image: url(../img/bg.jpg); */
-    background-color: #FFFFFF;
+    /*background-color: #F0F0F0;
+    background-image: url(../img/bg.jpg);
+    /*background-color: #FFFFFF;*/
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -34,6 +34,12 @@ a {
     background-color: #444444;
 }
 
+#title {
+  font-size: 52px; 
+  margin: 0px;
+  white-space: nowrap;
+}
+
 .footer {
     padding: 20px 0;
     text-align: center;
@@ -49,9 +55,10 @@ hr {
 }
 
 .header {
-    /* background-color: #f0f0f0; */
-    /* background-image: url(../img/bg-top.jpg); */
-    background-color: #FFFFFF;
+    /* background-color: #f0f0f0;
+    background-image: url(../img/bg-top.jpg);
+    background-color: #FFFFFF; */
+    background-color: #4B6F78;
     border-bottom: 1px solid #dddddd;
     box-shadow: 0 0 3px rgba(190, 190, 190, 0.75);
     top: 0;
@@ -59,13 +66,19 @@ hr {
     left: 0;
     z-index: 1030;
     height: auto;
-    padding: 20px 0;
+    padding: 10px 0;
     margin-bottom: 20px;
 }
 
+.header,
+.header a {
+    color: #ffffff;
+}
+
+
 .header img {
     float: left;
-    height: 160px;
+    height: 184px;
     margin-right: 15px;
     padding: 11px;
 }
@@ -128,7 +141,7 @@ hr {
 /* timeline css */
 .timeline {
     list-style: none;
-    padding: 20px 0 20px;
+    padding: 0px 0 20px;
     position: relative;
 }
 
@@ -255,7 +268,7 @@ hr {
 }
 
 .timeline-badge.info {
-    background-color: #5bc0de !important;
+    background-color: cadetblue !important;
 }
 
 .timeline-title {
@@ -296,25 +309,20 @@ hr {
 /* skills css */
 
 
-.programming-skill {
-    background-color: teal;
-    border-radius: 20px;
-    padding: 6px;
-    color: white;
-    margin-right: 3px;
-}
 
 .skills-container {
-    line-height: 36px;
+    line-height: 42px;
     margin-bottom: 30px;
 }
 
-.list-strip li {
+.list-strip li,
+.programming-skill
+{
     color: white;
     padding: 10px;
     margin-bottom: 6px;
     border-radius: 5px;
-    background: #4B6F78;
+    background: cadetblue;
 }
 
 .list-strip li:nth-child(even) {
@@ -349,7 +357,7 @@ hr {
 }
 
 .title {
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     position: relative;
     padding-bottom: 15px;
     margin-bottom: 20px;
@@ -359,10 +367,13 @@ hr {
 
 .title.skill {
     margin-bottom: 10px;
+    padding-bottom: 0;
 }
 
 .title.with-icon {
     padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .title .cat-title {
@@ -371,7 +382,7 @@ hr {
     padding-bottom: 10px;
     position: absolute;
     left: 0;
-    background: #249EBD;
+    background: #BA4E4E;
     padding: 10px;
     color: white;
     min-width: 40px;
@@ -388,7 +399,7 @@ hr {
     left: 50%;
     margin-left: -10px;
     bottom: -10px;
-    border-top: 10px solid #249EBD;
+    border-top: 10px solid #BA4E4E;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
 }
